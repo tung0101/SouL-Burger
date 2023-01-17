@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <div class="container signup signing">
+        <header>
+            <div class="logo">
+                <img src="./src/img/index/logo.png" alt="">
+            </div>
+        </header>
+        <main>
+            <p class="welcome">
+                Chào mừng đến với Soul Burger
+            </p>
+            <h2>
+                Đăng Ký
+            </h2>
+            <form action="" id="signup-form">
+                <div class="form-group">
+                    <label for="">Email</label>
+                    <input type="text" name="email" id="email" class="form-control" rules="required|email" placeholder="John.snow@gmail.com">
+                    <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="">Họ và tên</label>
+                    <input type="text" name="fullname" id="fullname" class="form-control" rules="required" placeholder="John.snow">
+                    <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="">Mật khẩu</label>
+                    <input type="password" name="password" id="password" class="form-control" rules="required|min:8" placeholder="*********">
+                    <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="">Nhập lại mật khẩu</label>
+                    <input type="password" name="re-password" id="re-password" class="form-control" rules="required|confirm:#password" placeholder="*********">
+                    <span class="error-message"></span>
+                </div>
+                <button class="create-now">Đăng ký</button>
+            </form>
+        </main>
+    </div>
+    <script src="./src/js/validator.js"></script>
+    <script>
+        var form = new Validator('#signup-form', 'signup');
+        form.onSubmit = function(type) {
+            alert(`${type} thành công`);
+        }
+    </script>
+</body>
+
+</html>

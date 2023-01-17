@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Inter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <a href="index.html" class="navbar-brand">
+            <img src="./src/img/index/logo-png.png" alt="logo" />
+            <h2>Soul Burger</h2>
+          </a>
+        </div>
+        <img class="list-icon" src="./src/img/index/list-icon.png" alt="" />
+        <div class="header-item">
+          <div class="header-item-box">
+            <img
+              src="./src/img/index/close-icon.png"
+              alt=""
+              class="close-icon"
+            />
+            <div class="menu">
+              <ul>
+                <li><a href="./index.html">Trang chủ</a></li>
+                <li><a href="./About.html">Giới thiệu</a></li>
+                <li><a href="./product.html">Thực đơn</a></li>
+                <li><a href="./Contact.html">Liên hệ</a></li>
+              </ul>
+            </div>
+            <div class="authenticate">
+              <a href="./cart.html"
+                ><img src="./src/img/index/cart.png" alt=""
+              /></a>
+              <a href="./signin.html" class="button" id="signin-btn"
+                >Đăng nhập</a
+              >
+              <a href="./signup.html" class="button" id="signup-btn">Đăng ký</a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="banner-products">
+          <img
+            src="https://hdq.com.vn/wp-content/uploads/2020/12/top-4-thuong-hieu-ga-ran-duoc-danh-gia-la-tuyet-nhat-the-gioi-photo-1-15499679002321870720958.jpg"
+            alt=""
+          />
+        </div>
+        <div class="products-box">
+          <div class="products-menu">
+            <ul></ul>
+          </div>
+          <div class="product-box-item">
+            <div class="products"></div>
+            <div class="page-number">
+              <ul></ul>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="logo">
+          <a href="index.html" class="navbar-brand">
+            <img src="./src/img/index/logo-png.png" alt="logo" />
+            <h2>Soul Burger</h2>
+          </a>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="./index.html">Trang chủ</a></li>
+            <li><a href="./About.html">Giới thiệu</a></li>
+            <li><a href="./product.html">Thực đơn</a></li>
+            <li><a href="./blog.html">Tin tức</a></li>
+            <li><a href="./Contact.html">Liên hệ</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="./src/js/main.js"></script>
+    <script>
+      handleMenu();
+      renderProducts_menu(".products", ListProduct, true);
+      renderCategories(".products-box .products-menu ul");
+      handleAddCart();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,925 @@
+@media (min-width:320px) {
+    .book h4 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .book {
+        margin-top: 50px;
+        margin-bottom: 150px;
+        margin-right: 10px;
+        text-align: center;
+        position: relative;
+    }
+    
+    h1 {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    
+    .book form {
+        margin-right: 10px;
+        margin-bottom: -100px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 40px;
+        grid-template-rows: 100px 100px 100px 1000px;
+        grid-column-gap: 5px;
+        /* margin-left: 5%; */
+        background: white;
+        height:500px;
+        width: 340px;
+        border-radius: 20px;
+        /* box-shadow: 15px 5px 15px 15px rgba(0, 0, 0, 0.05); */
+    }
+    
+    .book form .input {
+        width: 300px;
+        height: 60px;
+        /* margin-top: 80px; */
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+    }
+    
+    .book form input {
+        width: 80%;
+        background: transparent;
+        border: none;
+        font-size: 20px;
+    }
+    .colimg .img{
+        width: 200px;
+        height: 200px;
+    }
+    
+}
+
+@media (min-width: 640px) {
+    body {
+        font-size: 16px;
+    }
+    .container {
+        padding: 10px 10px 0 10px;
+    }
+    .list-icon {
+        display: none;
+    }
+    header .header-item {
+        display: flex;
+        position: static;
+        width: auto;
+        height: auto;
+        inset: initial;
+    }
+    header .header-item .header-item-box {
+        display: flex;
+        align-items: center;
+        position: static;
+        background-color: transparent;
+        visibility: visible;
+        padding: 0;
+    }
+    header .menu {
+        position: absolute;
+        left: 45%;
+        transform: translateX(-60%);
+    }
+    header .menu ul li {
+        display: inline-block;
+        margin: 5px 0;
+    }
+    header .authenticate {
+        display: flex;
+        margin: 0;
+        align-items: center;
+    }
+    .authenticate .button {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+    #signin-btn {
+        color: #F54748;
+        margin: 0 4px;
+    }
+    #signup-btn {
+        color: #FFFFFF;
+    }
+    .banner {
+        flex-direction: row;
+        align-items: center;
+        margin-top: 32px;
+    }
+    .banner-desc {
+        margin: 0;
+        padding-right: 40px;
+    }
+    .banner-desc span {
+        color: #F54748;
+        display: inline-block;
+    }
+    .quantity-food {
+        padding: 12px 24px;
+    }
+    .banner-desc h1 {
+        font-size: 48px;
+        line-height: 52px;
+        margin: 20px 0;
+    }
+    #form-delivery {
+        margin-top: 24px;
+    }
+    #form-delivery input {
+        font-size: 14px;
+    }
+    #form-delivery button {
+        font-size: 14px;
+    }
+    .products,
+    .blog-posts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 16px;
+    }
+    .product-info {
+        justify-content: flex-start;
+    }
+    .product-info-item span {
+        margin: 0 0 0 17px;
+    }
+    .popular-product p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .popular-product .products .product-item a span,
+    .products .product-item .product-name {
+        height: 40px;
+        margin-bottom: 8px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+    .categories {
+        padding: 32px 0 28px 0;
+    }
+    .categories .heading {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .categories .heading .view-all {
+        padding: 12px 16px;
+        margin: 0;
+    }
+    .categories-bar {
+        padding: 32px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .categories-item img {
+        width: 60%;
+    }
+    .related-products .products {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .products-menu,
+    .blog-menu {
+        padding: 5px 0;
+    }
+    .products-menu ul,
+    .blog-menu ul {
+        display: flex;
+    }
+    .products-menu ul li a {
+        padding: 0 6px;
+    }
+    .page-number ul {
+        margin: 32px;
+    }
+    .signing header {
+        padding: 15px;
+    }
+    .signing main {
+        width: 500px;
+        padding: 88px 0;
+    }
+    .signing form {
+        width: 400px;
+        padding: 32px 0;
+    }
+    .signing form button,
+    .signing form a {
+        font-size: 16px;
+    }
+    .signing form .form-group .form-control:hover {
+        border-color: rgba(0, 0, 0, 0.1);
+    }
+    .list-view .blog-posts-item {
+        margin: 0 !important;
+        margin-bottom: 8px !important;
+    }
+    .blog-posts-item-content .blog-posts-info span {
+        font-size: 12px;
+    }
+    .blog-posts-item-content a {
+        margin: 8px 0;
+    }
+    .blog-posts-title {
+        height: 40px;
+    }
+    .blog-category {
+        font-size: inherit;
+    }
+    .post-header .post-img {
+        margin-right: 20px;
+    }
+    .post-header .post-img img {
+        width: 150px;
+        height: 150px;
+    }
+    .post-title {
+        font-size: 36px;
+    }
+    .post-info {
+        display: flex;
+        flex-direction: row;
+        margin: 20px 0 0 5px;
+    }
+    .post-info-item {
+        flex-direction: column;
+        margin: 0 20px 0 0;
+        font-size: 12px;
+    }
+    .post-info-item span[class] {
+        margin: 5px 0 0 0;
+    }
+    .post-authors p {
+        font-size: 12px;
+    }
+    .post-authors p span {
+        font-size: 18px;
+        color: #161617;
+        font-weight: 700;
+    }
+    .related-posts {
+        margin-top: 70px;
+    }
+    .related {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 20px;
+    }
+    .related .blog-posts-item {
+        margin: 0 5px;
+    }
+    .related .blog-posts-item .blog-posts-item-img img {
+        max-height: 300px;
+    }
+    .cart-wrapper {
+        margin: 30px 0;
+    }
+    .cart-box {
+        margin: 20px 0;
+        padding: 20px 20px;
+        border-spacing: 0 15px;
+        font-size: 14px;
+    }
+    .cart-box thead {
+        display: table-header-group;
+        position: sticky;
+        top: 0;
+        background-color: #FFFFFF;
+    }
+    .cart-box th,
+    .cart-box td {
+        padding: 20px 10px;
+    }
+    .cart-item {
+        display: table-row;
+    }
+    .cart-item input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+    }
+    .cart-item .product-info {
+        flex-wrap: wrap;
+    }
+    .cart-item img {
+        width: 30% !important;
+        min-width: 80px;
+        height: auto;
+    }
+    .cart-item .cart-item-unit-price {
+        text-align: center !important;
+    }
+    .cart-item .total-price {
+        display: table-cell;
+    }
+    .cart-item .delete-btn {
+        padding: 10px;
+    }
+    tfoot {
+        display: table-footer-group;
+    }
+    .cart-item.cart-item-footer {
+        display: table-row;
+    }
+    .cart-item.cart-item-footer td:first-child {
+        display: table-cell;
+    }
+    .cart-footer-control span {
+        margin-left: 10px;
+    }
+    .checkout button {
+        border-radius: 0;
+    }
+    .checkout button:hover {
+        background-color: transparent;
+        color: #F54748;
+    }
+    .empty-cart span {
+        font-size: 30px;
+    }
+    .book {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        text-align: center;
+        position: relative;
+    }
+    .book h4 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    
+    .book form {
+        margin-bottom: -100px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 5px;
+        /* margin-left: 5%; */
+        background: white;
+        height: 250px;
+        width: 650px;
+        border-radius: 20px;
+        box-shadow: 15px 5px 15px 15px rgba(0, 0, 0, 0.05);
+    }
+    
+    .book form .input {
+        width: 150px;
+        height: 60px;
+        margin-top: 80px;
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+    }
+    
+    .book form input {
+        width: 80%;
+        background: transparent;
+        border: none;
+        font-size: 20px;
+    }
+    
+    .book form input:focus {
+        outline: none;
+    }
+    
+    .book form button {
+        width: 100%;
+    }
+    
+    .book form .input:nth-last-child(1) {
+        background: #F54748;
+    }
+    
+    .book form .input .btn {
+        border: none;
+        background-color: #F54748;
+        color: white;
+        font-size: 20px;
+        margin: 20px 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .book {
+        margin-top: 50px;
+        margin-bottom: 150px;
+        text-align: center;
+        position: relative;
+    }
+    
+    .book form {
+        margin-bottom: -100px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 50px;
+        /* margin-left: 5%; */
+        background: white;
+        height: 250px;
+        width: 800px;
+        padding: 20px;
+    }
+    
+    .book form .input {
+        width: 150px;
+        height: 60px;
+        margin-top: 80px;
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+        padding: 0 10px;
+    }
+    
+    .book form input {
+        width: 80%;
+        padding: 10px;
+        background: transparent;
+        border: none;
+        font-size: 20px;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 0;
+        position: relative;
+    }
+    .menu ul li a {
+        padding: 0 16px;
+        transition: all 0.15s ease-in;
+    }
+    .authenticate .button {
+        font-size: 14px;
+    }
+    #signin-btn {
+        margin: 0 12px;
+    }
+    .products {
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        width: auto;
+    }
+    .product-info-item {
+        font-size: 12px;
+    }
+    .product-info-item span {
+        margin: 0 0 0 4px;
+    }
+    #contact .form-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 12px 20px;
+        width: 100%;
+    }
+    #contact .form-group {
+        padding: 0;
+    }
+    #contact .form-group:last-child {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    #contact .form-group .form-control {
+        padding: 12px 0 12px 16px;
+        margin: 8px 0;
+    }
+    #contact textarea.form-control {
+        height: 120px;
+    }
+    #contact button {
+        padding: 20px 40px;
+        margin: 20px 0;
+    }
+    .product-detail {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 32px;
+        margin: 30px 0;
+    }
+    .blog-posts-item-content .blog-posts-info span {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1024px) {  
+    h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .book form {
+        margin-bottom: -100px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 50px;
+        /* margin-left: 5%; */
+        background: white;
+        height: 250px;
+        width: 1000px;
+        padding: 20px;
+    }
+    
+    .book form .input {
+        width: 200px;
+        height: 60px;
+        margin-top: 80px;
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+        padding: 0 10px;
+    }
+    
+    .book form input {
+        width: 80%;
+        padding: 10px;
+        background: transparent;
+        border: none;
+        font-size: 20px;
+    }
+    .container {
+        padding: 0 10px;
+    }
+    img:not(header img, .product-info-item img, .categories-item img, footer img) {
+        width: 100%;
+    }
+    header {
+        padding: 40px 0;
+    }
+    .menu ul li a {
+        transition: all 0.15s ease-in;
+    }
+    .authenticate .button {
+        padding: 12px 18px;
+    }
+    #signin-btn {
+        margin: 0 20px;
+    }
+    main {
+        margin-bottom: 56px;
+    }
+    .banner {
+        margin-top: 70px;
+    }
+    .banner-desc h1 {
+        width: 506px;
+        font-size: 72px;
+        line-height: 100px;
+        margin: 32px 0;
+    }
+    #form-delivery {
+        width: 80%;
+        margin-top: 32px;
+    }
+    #form-delivery input {
+        padding: 24px 16px;
+        font-size: 18px;
+    }
+    #form-delivery button {
+        font-size: 18px;
+        padding: 24px 35px;
+    }
+    #form-delivery button:hover {
+        cursor: pointer;
+        background-color: #FFFFFF;
+        color: #F54748;
+    }
+    .popular-product {
+        margin-top: 70px;
+        padding: 24px 0;
+    }
+    .popular-product-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-heading {
+        font-size: 48px;
+        font-weight: 700;
+    }
+    .popular-product p {
+        width: 706px;
+        margin: 24px 0;
+    }
+    .products,
+    .blog-posts,
+    .related {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        width: auto;
+    }
+    .products .product-item:not(.related-products .product-item) {
+        width: auto;
+    }
+    .product-item {
+        padding: 0;
+        width: auto;
+        border: none;
+    }
+    .about .about_img figure {
+        padding: 155px 0px 0px 60px;
+    }
+    .product-item span {
+        margin: 27px 0;
+    }
+    .product-item span:hover {
+        text-decoration: underline;
+    }
+    .product-info-item {
+        font-size: 14px;
+        margin-right: 24px;
+    }
+    .product-info-item span {
+        margin: 0 0 0 13px;
+    }
+    .categories {
+        padding: 70px 0 32px 0;
+    }
+    .categories .heading {
+        margin-bottom: 40px;
+    }
+    .categories .heading .view-all {
+        padding: 20px 24px;
+    }
+    .categories .heading .view-all:hover,
+    .products .product-item button:hover,
+    #contact button:hover,
+    .product-detail-add-cart button:hover,
+    .signing form button:hover,
+    .signing form a:hover {
+        cursor: pointer;
+        color: #FFFFFF;
+        background-color: #F54748;
+    }
+    .categories-bar {
+        padding: 40px 60px;
+    }
+    .categories-item img {
+        width: auto;
+        position: relative;
+        top: 0;
+        transition: all 0.1s ease-in;
+    }
+    .categories-item img:hover {
+        top: -3px;
+    }
+    .contact .box-heading {
+        margin: 65px 0;
+    }
+    #contact .form-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 12px 40px;
+        width: 100%;
+    }
+    #contact .form-group {
+        padding: 0;
+    }
+    #contact .form-group:last-child {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    #contact .form-group .form-control {
+        padding: 18px 0 18px 20px;
+        margin: 12px 0;
+    }
+    #contact .form-group .form-control:hover,
+    .product-detail-add-cart input:hover,
+    .filter select:hover {
+        border-color: #37A9CD;
+    }
+    #contact textarea.form-control {
+        height: 200px;
+    }
+    #contact button {
+        padding: 20px 60px;
+        margin: 40px 0;
+    }
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 35px 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    /* Detail */
+    .product-detail {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+        margin: 60px 0;
+    }
+    .product-detail-text h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .product-detail-text span {
+        font-size: 40px;
+    }
+    .product-detail-text p {
+        margin: 32px 0;
+    }
+    .product-detail-add-cart input {
+        padding: 12px 15px;
+        margin-right: 20px;
+    }
+    .product-detail-add-cart button {
+        transition: all 0.25s ease-in;
+    }
+    .related-products h1 {
+        padding: 15px 0;
+    }
+    .products-box,
+    .blog-wrapper {
+        display: grid;
+        /* justify-content: space-between; */
+        grid-template-columns: 150px auto;
+        padding: 48px 0 0 0;
+        margin: 0;
+    }
+    .products-menu,
+    .blog-menu {
+        display: block;
+    }
+    .products-menu ul,
+    .blog-menu ul {
+        display: block;
+    }
+    .products-menu ul li a,
+    .blog-menu ul li a {
+        font-size: 20px;
+        padding: 12px 0;
+        position: relative;
+        right: 0;
+        transition: all 0.15s ease-in;
+    }
+    .products-menu ul li a:hover,
+    .blog-menu ul li a:hover {
+        right: -2px;
+        color: #F54748;
+    }
+    .products .product-item img {
+        border-radius: 20px;
+    }
+    .products .product-item .product-name {
+        margin: 15px 0;
+    }
+    .products .product-item .product-price {
+        padding-bottom: 20px;
+    }
+    .products .product-item button {
+        transition: all 0.25s ease-in;
+        padding: 12px 0;
+        border-radius: 6px;
+    }
+    .popular-product .products .product-item a span,
+    .products-box .products .product-item .product-name {
+        height: 45px;
+        margin-bottom: 24px;
+    }
+    .widget-blog {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 20px 10px;
+    }
+    .blog-menu {
+        padding-top: 60%;
+    }
+    .view-icon {
+        margin-right: 30px;
+    }
+    .blog-posts-item:hover {
+        top: -3px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+    .list-view .blog-posts-item:hover {
+        top: 0 !important;
+        left: 3px !important;
+    }
+    .list-view .blog-posts-item-img {
+        margin-right: 20px !important;
+    }
+    .list-view .blog-posts-item-img img {
+        width: 150px !important;
+        max-height: 150px !important;
+    }
+    .list-view .blog-posts-item-content {
+        justify-content: space-between !important;
+    }
+}
+
+@media (min-width: 1280px) {
+    .about .about_img figure {
+        padding: 155px 0px 0px 60px;
+    }
+    body {
+        font-size: 18px;
+    }
+    .container {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .products,
+    .blog-posts {
+        grid-gap: 40px;
+    }
+    .list-view {
+        grid-gap: 20px !important;
+    }
+    .blog-posts-title {
+        height: 44px;
+    }
+    .book {
+        margin-top: 100px;
+        margin-bottom: 200px;
+        text-align: center;
+        position: relative;
+    }
+    
+    
+    .book h4 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .book form {
+        margin-bottom: -100px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 50px;
+        /* margin-left: 5%; */
+        background: white;
+        height: 250px;
+        width: 1200px;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 15px 5px 15px 15px rgba(0, 0, 0, 0.05);
+    }
+    
+    .book form .input {
+        width: 250px;
+        height: 60px;
+        margin-top: 80px;
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+        padding: 0 10px;
+    }
+    
+    .book form input {
+        width: 80%;
+        padding: 10px;
+        background: transparent;
+        border: none;
+        font-size: 20px;
+    }
+    
+    .book form input:focus {
+        outline: none;
+    }
+    
+    .book form button {
+        width: 100%;
+    }
+    
+    .book form .input:nth-last-child(1) {
+        background: #F54748;
+    }
+    
+    .book form .input .btn {
+        border: none;
+        background-color: #F54748;
+        color: white;
+        font-size: 20px;
+        margin: 20px 10px;
+    }
+    .about-row{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        align-items: center;
+        column-gap: 2rem;
+    }
+    .about-col-1,
+    .about-col-3{
+        display: block;
+    }
+    .about-row > div{
+        margin: 0;
+    }
+}

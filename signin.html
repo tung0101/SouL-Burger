@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <title>Sign In</title>
+</head>
+
+<body>
+    <div class="container signin signing">
+        <header>
+            <div class="logo">
+                <img src="./src/img/index/logo.png" alt="">
+            </div>
+        </header>
+        <main>
+            <p class="welcome">
+                Chào mừng đến với Soul Burger
+            </p>
+            <h2>
+                Đăng Nhập
+            </h2>
+            <form action="" id="signin-form">
+                <div class="form-group">
+                    <label for="">Email</label>
+                    <input type="text" name="email" id="email" class="form-control" rules="required|email" placeholder="John.snow@gmail.com">
+                    <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="">Mật khẩu</label>
+                    <input type="password" name="password" id="password" class="form-control" rules="required|min:6" placeholder="*********">
+                    <span class="error-message"></span>
+                </div>
+                <button class="login">Đăng nhập</button>
+                <a href="#" class="google-signin">
+                    <img src="./src/img/index/google-logo.png" alt="">
+                    Hoặc đăng nhập bằng google
+                </a>
+            </form>
+            <a href="#">Quên mật khẩu?</a>
+            <p class="join-free">
+                Không có tài khoản? <a href="signup.html">Đăng ký</a>
+            </p>
+        </main>
+    </div>
+    <script src="./src/js/validator.js"></script>
+    <script>
+        var form = new Validator('#signin-form', 'signin');
+        form.onSubmit = function(type) {
+            alert(`${type} thành công`);
+        }
+    </script>
+</body>
+
+</html>

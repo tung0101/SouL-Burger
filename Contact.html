@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter&display=swap" rel="stylesheet">
+    <script src="./src/js/main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href = "index.html" class = "navbar-brand">
+                    <img src = "./src/img/index/logo-png.png" alt = "logo">
+                    <h2>Soul Burger</h2>
+                  </a>
+            </div>
+            <img class="list-icon" src="./src/img/index/list-icon.png" alt="">
+            <div class="header-item">
+                <div class="header-item-box">
+                    <img src="./src/img/index/close-icon.png" alt="" class="close-icon">
+                    <div class="menu">
+                        <ul>
+                            <li><a href="./index.html">Trang chủ</a></li>
+                            <li><a href="./About.html">Giới thiệu</a></li>
+                            <li><a href="./product.html">Thực đơn</a></li>
+                            <li><a href="./Contact.html">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="authenticate">
+                        <a href="./cart.html"><img src="./src/img/index/cart.png" alt=""></a>
+                        <a href="./signin.html" class="button" id="signin-btn">Đăng nhập</a>
+                        <a href="./signup.html" class="button" id="signup-btn">Đăng ký</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="contact">
+                <h1 class="box-heading">
+                    Liên hệ
+                </h1>
+                <div class="container mt-5">
+                    <div class="row g-2">                       
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="icon" >
+                                    <i class='fa fa-map-marker' style="color:#3b82f6; font-size: 50px;"></i>
+                                </div>
+                                <h5>Địa chỉ</h5>
+                                <p style="text-align: center;">35 Võ Trường Toản, An Phú, Quận 2, <br> Thành phố Hồ Chí Minh</p>
+                            </div>
+                        </div>                      
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="icon" >
+                                    <i class='fa fa-envelope' style="color:#3b82f6; font-size: 50px;"></i>
+                                </div>
+                                <h5>Email</h5>
+                                <p>soulburger@gmail.com</p>
+                            </div>
+                        </div>                      
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="icon">
+                                    <i class='fa fa-phone' style="color:#3b82f6; font-size: 50px;"></i>
+                                </div>
+                                <h5>Số điện thoại</h5>
+                                <p>0348008939</p>
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+                <div class="form-contact-box" style="margin-top: 150px;">
+                    <form action="" id="contact">
+                        <div class="form-box">
+                            <div class="form-group">
+                                <label for="">Họ</label>
+                                <input class="form-control" name="name" id="name" type="text" rules="required">
+                                <span class="error-message">Hello</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Tên</label>
+                                <input class="form-control" name="email" id="email" type="text"  rules="required|email">
+                                <span class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Số điện thoại</label>
+                                <input class="form-control" name="" id="subject" type="text"  rules="required">
+                                <span class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Email</label>
+                                <input class="form-control" name="" id="subject" type="text"  rules="required">
+                                <span class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Lời nhắn</label>
+                                <textarea class="form-control" name="message" id="message"  rules="max:150"></textarea>
+                                <span class="error-message"></span>
+                            </div>
+                        </div>
+                        <button type="submit">Gửi</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="logo">
+                <a href = "index.html" class = "navbar-brand">
+                    <img src = "./src/img/index/logo-png.png" alt = "logo">
+                    <h2>Soul Burger</h2>
+                  </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="./index.html">Trang chủ</a></li>
+                    <li><a href="./About.html">Giới thiệu</a></li>
+                    <li><a href="./product.html">Thực đơn</a></li>
+                    <li><a href="./blog.html">Tin tức</a></li>
+                    <li><a href="./Contact.html">Liên hệ</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="./src/js/main.js"></script>
+    <script src="./src/js/validator.js"></script>
+    <script>
+        handleMenu();
+        renderProducts('.products', ListProduct);
+        renderCategories('.categories-bar', true);
+        let contactValidate = new Validator('#contact');
+        contactValidate.onSubmit = function(type) {
+            alert(`${type} thành công`);
+        }
+    </script>
+</body>
+
+</html>
